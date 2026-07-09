@@ -1,0 +1,9 @@
+@use '../abstracts/' as a;
+.header {
+    height: 40vh;
+    background: url('../../assets/images/background-pattern-mobile.svg');
+    @include a.breakpoint ('large') {
+        background: url('../../assets/images/background-pattern-desktop.svg');
+    }
+
+}

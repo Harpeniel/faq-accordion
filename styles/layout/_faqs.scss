@@ -1,0 +1,23 @@
+@use '../abstracts/' as a;
+.faqs {
+    width: min(100% - a.rem(40px), 500px);
+    background: var(--white);
+    padding: a.rem(20px);
+    margin-inline: auto;
+    border-radius: a.rem(15px);
+    transform: translateY(-15%);
+    &__header {
+        display: flex;
+        column-gap: a.rem(20px);
+        margin-bottom: a.rem(40px);
+        img {
+            width: a.rem(40px);
+            height: a.rem(41px);
+        }
+        h1 {
+            color: var(--purple950);
+            font-size: a.rem(32px);
+            font-weight: 700;
+        }
+    }
+}

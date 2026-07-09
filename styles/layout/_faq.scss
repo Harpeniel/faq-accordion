@@ -1,0 +1,28 @@
+@use '../abstracts/' as a;
+.faq {
+    margin-bottom: a.rem(40px);
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: a.rem(20px);
+        cursor: pointer;
+         &:hover &__title{
+            color: var(--purple600);
+        }
+    }
+    &__header__title {
+        width: 75%;
+        font-weight: 600;
+        transition: all .3s;
+       
+    }
+    img {
+        width: a.rem(30px);
+        height: a.rem(31px);
+    }
+    &__description {
+        display: none;
+    }
+    
+}

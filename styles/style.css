@@ -1,0 +1,128 @@
+:root {
+  --white: hsl(0, 100%, 100%);
+  --purple100: hsl(275, 100%, 97%);
+  --purple600: hsl(292, 16%, 49%);
+  --purple950: hsl(292, 42%, 14%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, body {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, button, input, select, textarea {
+  font: inherit;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+}
+
+a, button, input, select, textarea {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: transparent;
+}
+
+img, picture, video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../../assets/fonts/static/WorkSans-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../../assets/fonts/static/WorkSans-SemiBold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../../assets/fonts/static/WorkSans-Bold.ttf");
+  font-weight: 700;
+}
+body {
+  font-family: "Work Sans";
+  font-weight: 400;
+  background: var(--purple100);
+}
+
+.header {
+  height: 40vh;
+  background: url("../../assets/images/background-pattern-mobile.svg");
+}
+@media (min-width: 56.25em) {
+  .header {
+    background: url("../../assets/images/background-pattern-desktop.svg");
+  }
+}
+
+.faqs {
+  width: min(100% - 2.5rem, 500px);
+  background: var(--white);
+  padding: 1.25rem;
+  margin-inline: auto;
+  border-radius: 0.9375rem;
+  transform: translateY(-15%);
+}
+.faqs__header {
+  display: flex;
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+.faqs__header img {
+  width: 2.5rem;
+  height: 2.5625rem;
+}
+.faqs__header h1 {
+  color: var(--purple950);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.faq {
+  margin-bottom: 2.5rem;
+}
+.faq__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+  cursor: pointer;
+}
+.faq__header:hover .faq__header__title {
+  color: var(--purple600);
+}
+.faq__header__title {
+  width: 75%;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.faq img {
+  width: 1.875rem;
+  height: 1.9375rem;
+}
+.faq__description {
+  display: none;
+}
+
+.show {
+  display: block !important;
+}/*# sourceMappingURL=style.css.map */

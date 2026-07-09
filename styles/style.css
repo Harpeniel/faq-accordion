@@ -65,11 +65,11 @@ body {
 
 .header {
   height: 40vh;
-  background: url("../../assets/images/background-pattern-mobile.svg");
+  background: url("./assets/images/background-pattern-mobile.svg");
 }
 @media (min-width: 56.25em) {
   .header {
-    background: url("../../assets/images/background-pattern-desktop.svg");
+    background: url("./assets/images/background-pattern-desktop.svg");
   }
 }
 

@@ -75,6 +75,7 @@ body {
 
 .faqs {
   width: min(100% - 2.5rem, 500px);
+  min-height: 32.5rem;
   background: var(--white);
   padding: 1.25rem;
   margin-inline: auto;

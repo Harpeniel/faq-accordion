@@ -1,6 +1,7 @@
 @use '../abstracts/' as a;
 .faqs {
     width: min(100% - a.rem(40px), 500px);
+    min-height: a.rem(520px);
     background: var(--white);
     padding: a.rem(20px);
     margin-inline: auto;

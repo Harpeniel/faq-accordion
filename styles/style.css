@@ -109,7 +109,7 @@ body {
   cursor: pointer;
 }
 .faq__header:hover .faq__header__title {
-  color: var(--purple600);
+  color: hsl(281, 83%, 54%);
 }
 .faq__header__title {
   width: 75%;

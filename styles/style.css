@@ -44,17 +44,17 @@ img, picture, video {
 
 @font-face {
   font-family: "Work Sans";
-  src: url("./assets/fonts/static/WorkSans-Regular.ttf");
+  src: url("../assets/fonts/static/WorkSans-Regular.ttf");
   font-weight: 400;
 }
 @font-face {
   font-family: "Work Sans";
-  src: url("./assets/fonts/static/WorkSans-SemiBold.ttf");
+  src: url("../assets/fonts/static/WorkSans-SemiBold.ttf");
   font-weight: 600;
 }
 @font-face {
   font-family: "Work Sans";
-  src: url("./assets/fonts/static/WorkSans-Bold.ttf");
+  src: url("../assets/fonts/static/WorkSans-Bold.ttf");
   font-weight: 700;
 }
 body {
@@ -65,11 +65,11 @@ body {
 
 .header {
   height: 40vh;
-  background: url("./assets/images/background-pattern-mobile.svg");
+  background: url("../assets/images/background-pattern-mobile.svg");
 }
 @media (min-width: 56.25em) {
   .header {
-    background: url("./assets/images/background-pattern-desktop.svg");
+    background: url("../assets/images/background-pattern-desktop.svg");
   }
 }
 
